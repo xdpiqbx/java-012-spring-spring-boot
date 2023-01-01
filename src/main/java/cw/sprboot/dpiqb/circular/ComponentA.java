@@ -4,7 +4,7 @@ import jakarta.annotation.PostConstruct;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class ComponentA {
 //  private final ApplicationContext context;
 //

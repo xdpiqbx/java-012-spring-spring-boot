@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class ComponentB {
 //  private final ComponentA componentA;
 //  private final ApplicationContext context;
