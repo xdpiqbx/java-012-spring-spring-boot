@@ -8,6 +8,7 @@
   <title>Current time</title>
 </head>
 <body>
-  <h1 th:text="${currentTimeLabel} + ': ' + ${time}"></h1>
+  <h1 th:if="${cookieValue} != null" th:text="${cookieValue}"></h1>
+  <h1 th:if="${cookieValue} == null">No cookie</h1>
 </body>
 </html>
